@@ -6,7 +6,7 @@ A GitHub Workflow Action for invalidating CloudFront distribution paths
 
 ```yaml
 - name: Invalidate CloudFront
-  uses: chetan/invalidate-cloudfront-action@v2
+  uses: emersonsoftware/invalidate-cloudfront-action@v2
   env:
     DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
     PATHS: "/index.html"
